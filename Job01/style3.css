@@ -1,0 +1,9 @@
+/* De la même manère, on utilise 'min-width' et 'max-width' pour indiquer 
+la taille minimal et la taille maximum de l'ecran
+ pour la couleur de notre background */
+
+@media (max-width: 1680px) and (min-width: 1280px) {
+    body {
+        background-color: #275fa0;
+    }
+}

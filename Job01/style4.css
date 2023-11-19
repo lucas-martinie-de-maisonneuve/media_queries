@@ -1,0 +1,8 @@
+/* on utilise uniquement 'max-width' pour indiquer la taille maximum de l'ecran 
+pour que toutes les largeurs inférieures prennent la couleur */
+
+ @media (max-width: 1280px) {
+    body {
+        background-color: #ffffff;
+    }
+}

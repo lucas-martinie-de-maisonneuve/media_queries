@@ -1,0 +1,42 @@
+#menunav label {
+    cursor: pointer;
+    display: none;
+}
+/* On desactive de base notre burger*/
+
+#burger {
+    appearance: none;
+    font-size: 30px;
+}
+/* On "customise" notre bouton 
+(cacher la case et grossir le burger) */
+
+
+.lien a {
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* On "customise" rapidement nos liens */
+
+@media (max-width: 767px) {
+    #menunav label {
+        display: inline-block;
+        font-size: 30px;
+    }
+/* On fait aparaitre le burger quand la taille
+de l'ecran est inférieur à 767px */
+
+    .lien {
+        display: none;
+    }
+/* On cache notre menu */
+
+    #menunav input:checked+.lien {
+        display: block;
+    }
+/* On indique que si la case est coché, 
+le menu s'affiche */
+
+}

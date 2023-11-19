@@ -1,0 +1,24 @@
+
+section {
+    background-color: #88c1d0;
+    display: inline-flex;
+    width: 24%;
+    aspect-ratio: 16/9;
+}
+/* Si dessus, on colore le background 
+de nos section et nous leurs donnons une taille*/
+
+@media (min-width: 768px) and (max-width: 1599px) {
+    section {
+        width: 45%
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        width: 90%;
+    }
+}
+
+/* Si dessus; on demande à nos section de changer de taille
+en fonction de la largeur de l'ecran */
